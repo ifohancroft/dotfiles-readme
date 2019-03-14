@@ -11,7 +11,7 @@ dotfiles remote add origin https://github.com/ifohancroft/.dotfiles.git
 dotfiles add .bashrc
 dotfiles status
 dotfiles commit -m "Added .bashrc"
-git push --set-upstream origin master
+git push -u origin master
 ```
 
 ## Replication
