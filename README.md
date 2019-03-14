@@ -7,8 +7,8 @@ git init --bare $HOME/.dotfiles
 echo "alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 dotfiles config --local status.showUntrackedFiles no
-dotfiles remote add origin git@github.com:ifohancroft/.dotfiles.git
-dotfiles remote set-url origin git@github.com:ifohancroft/.dotfiles.git
+dotfiles remote add origin https://github.com/ifohancroft/.dotfiles.git
+dotfiles remote set-url origin https://github.com/ifohancroft/.dotfiles.git
 dotfiles add .bashrc
 dotfiles status
 dotfiles commit -m "Added .bashrc"
